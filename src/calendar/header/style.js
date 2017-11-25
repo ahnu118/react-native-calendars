@@ -29,14 +29,8 @@ export default function(theme={}) {
             backgroundColor:'rgba(255,255,255,0.4)'
         },
         arrowImage: {
-            ...Platform.select({
-                ios: {
-                    tintColor: appStyle.arrowColor
-                },
-                android: {
-                    tintColor: appStyle.arrowColor
-                }
-            })
+            width:12,
+            height:12
         },
         week: {
             height:22,
