@@ -33,7 +33,7 @@ export default function(theme={}) {
             height:12
         },
         week: {
-            height:22,
+            height:30,
             alignItems:'center',
             flexDirection: 'row',
             justifyContent: 'space-around',
